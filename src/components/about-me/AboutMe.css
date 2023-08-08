@@ -1,0 +1,88 @@
+.about-me {
+  max-width: 2000px;
+  max-height: 2000px;
+  border-radius: 25px;
+  margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+}
+.cv-container {
+  flex: 1;
+  border-radius: 25px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  gap: 10px;
+}
+
+.picture-section,
+.language-section {
+  padding: 1rem;
+  border-radius: 25px;
+  display: grid;
+  place-items: center;
+}
+.name-section{
+  padding: 1rem;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  
+}
+.profile-picture {
+  width: auto;
+  height: 40rem;
+  filter: drop-shadow(5px 5px var(--accent-color));
+  transition: 0.3s ease-in-out;
+}
+.profile-picture:hover {
+  filter: drop-shadow(25px 25px var(--accent-color));
+  transition: 0.3s ease-in-out;
+}
+.name-line {
+  font-variant: small-caps;
+}
+.no-wrap {
+  white-space: nowrap;
+}
+.qualification {
+  text-decoration: underline var(--accent-color);
+  text-decoration-thickness: 3px;
+}
+
+.language-icon{
+  height: auto;
+  width: 3rem;
+  margin-right: 1rem;
+  filter: grayscale(100%);
+  transition: 0.2s ease-in-out;;
+}
+.card:hover .language-icon{
+  filter: grayscale(0%);
+}
+@media screen and (max-width: 940px) {
+  .language-icon{
+    filter: grayscale(0%);
+  }
+}
+
+
+.btn-custom {
+  background-color: var(--accent-color);
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn-custom:hover {
+  background-color: #ff9900;
+}
+
+.btn-custom:active {
+  background-color: #ff7700;
+}

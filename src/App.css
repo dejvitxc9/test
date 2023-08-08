@@ -1,0 +1,110 @@
+* {
+  transition: 0.3s ease-in-out;
+}
+
+.App-dark {
+  min-width: 720px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  transition: 0.3s ease-in-out;
+  .navigationbar {
+    background-color: var(--primary-color);
+  }
+  @media screen and (max-width: 940px) {
+    height: 100%;
+    .nav-menu {
+      background-color: #00000090;
+    }
+  }
+
+  .contact,
+  .card,
+  .tile {
+    background-color: var(--github-black);
+  }
+  .projects-section-second,
+  .projects-section-first > .grid-projects,
+  .about-me,
+  .cv-container,
+  .project-details {
+    background-color: var(--secondary-color);
+  }
+  .projects-section-first,
+  .projects-section-second > .grid-projects,
+  .name-section,
+  .picture-section,
+  .language-section,
+  .contact,
+  .details-describtion,
+  ::-webkit-scrollbar-track {
+    background-color: var(--primary-color);
+  }
+  .primary-font-color {
+    color: #ffffff;
+  }
+  .accent-font-color {
+    color: var(--accent-color);
+  }
+  ::selection {
+    background-color: var(--accent-color);
+    color: #000;
+  }
+}
+
+.App-light {
+  min-width: 720px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  transition: 0.3s ease-in-out;
+  .navigationbar {
+    background-color: var(--secondary-color);
+  }
+  @media screen and (max-width: 940px) {
+    height: 100%;
+    .nav-menu {
+      background-color: #00000090;
+    }
+  }
+
+  .card,
+  .tile {
+    background-color: var(--test1);
+  }
+  .projects-section-second,
+  .projects-section-first,
+  .about-me,
+  .contact,
+  .cv-container {
+    background-color: var(--test2);
+  }
+  .projects-section-second > .grid-projects,
+  .projects-section-first > .grid-projects,
+  .name-section,
+  .picture-section,
+  .language-section,
+  ::-webkit-scrollbar-track {
+    background-color: var(--test3);
+  }
+  .primary-font-color {
+    color: #000000;
+  }
+  .accent-font-color {
+    color: var(--accent-color);
+  }
+  ::selection {
+    background-color: var(--accent-color);
+    color: #000;
+  }
+}
+
+*::-webkit-scrollbar {
+  width: 16px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--accent-color);
+  border-radius: 10px;
+  border: 3px solid #ffffff;
+}

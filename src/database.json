@@ -1,0 +1,46 @@
+{
+  "reactJsProjects": [
+    {
+      "id": 1,
+      "name": "TastyDejvit.com",
+      "imageLink": "web1.jpg",
+      "describtion": [
+        "TastyDejvit.com to witryna prezentująca moje umiejętności w obsłudze API",
+        "Przedstawiona witryna korzysta z API dostarczanych przez RapidApi. Wyzwaniem podczas jej tworzenia było odpowiednie zarządzanie i przetwarzanie danych. Jednym z wyzwań było płynne zmienianie się danych podczas przełączania między API",
+        "Stworzenie tej strony dało mi wiele doświadczenia"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Buvi.com",
+      "imageLink": "web2.jpg",
+      "describtion": "Sklep internetowy"
+    },
+    {
+      "id": 3,
+      "name": "Pepeweb.pl",
+      "imageLink": "web3.jpg",
+      "describtion": ["Strona z filmami", "cf"]
+    }
+  ],
+  "androidProjects": [
+    {
+      "id": 1,
+      "name": "Gra TicTakToe",
+      "imageLink": "and1.jpg",
+      "describtion": "Aplikacja kółko krzyrzyk"
+    },
+    {
+      "id": 2,
+      "name": "Aplikacja z kodami",
+      "imageLink": "and2.jpg",
+      "describtion": "Aplikacja na wakacje"
+    },
+    {
+      "id": 3,
+      "name": "Kalkulator średniej",
+      "imageLink": "and3.jpg",
+      "describtion": "Apka, której pootrzebowałem"
+    }
+  ]
+}

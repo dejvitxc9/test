@@ -1,0 +1,12 @@
+.contact {
+  margin: auto;
+  margin-top: 2rem;
+  padding: 1rem;
+  margin-bottom: 3rem;
+  border-radius: 25px;
+}
+
+.social-icon{
+  height: auto;
+  width: 3rem;
+}

@@ -1,0 +1,19 @@
+.projects-section-first,
+.projects-section-second {
+  max-width: 2000px;
+  padding: 1rem;
+  margin: auto;
+  margin-top: 2rem;
+  border-radius: 25px;
+}
+.grid-projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  grid-gap: 10px;
+  background-color: #dddddd;
+  border-radius: 25px;
+}
+
+.grid-projects:hover .project-picture {
+  filter: blur(2px);
+}
