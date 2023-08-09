@@ -10,3 +10,9 @@
   height: auto;
   width: 3rem;
 }
+
+.custom-contact-card:hover{
+  /* box-shadow: 4px 4px var(--accent-font-color); */
+  border-radius: var(--bs-border-radius);
+  box-shadow: 5px 5px var(--accent-color);
+}
