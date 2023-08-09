@@ -1,12 +1,11 @@
 import "./Tile.css"
 import { Link } from "react-router-dom";
 
-function Tile ({id, title, imgsrc}){
-    console.log(id);
+function Tile ({item}){
     return(
-        <Link to={title} className="tile">
-            <img className="project-picture" src={imgsrc} alt={title} />
-            <h4 className="project-title primary-font-color">{title}</h4>
+        <Link to={item.name} className="tile">
+            <img className="project-picture" src={`pictures/${item.imageLink}`} alt={item.name} />
+            <h4 className="project-title primary-font-color">{item.name}</h4>
         </Link>
     )
 }

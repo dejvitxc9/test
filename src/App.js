@@ -27,17 +27,19 @@ function App() {
           }
         >
           <Route index element={<Main db={db} />} />
-          {db.reactJsProjects.map((appData) => {
+          {db.reactJsProjects.map((appData, index) => {
             return (
               <Route
+                key={index}
                 path={appData.name}
                 element={<ProjectDetails appData={appData} />}
               />
             );
           })}
-          {db.androidProjects.map((appData) => {
+          {db.androidProjects.map((appData, index) => {
             return (
               <Route
+                key={index}
                 path={appData.name}
                 element={<ProjectDetails appData={appData} />}
               />

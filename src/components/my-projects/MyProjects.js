@@ -10,9 +10,7 @@ function MyProject({ sectionTitle, itemList, pointer, className }) {
           return (
             <Tile
               key={index}
-              id={item.id}
-              title={item.name}
-              imgsrc={`pictures/${item.imageLink}`}
+              item={item}
             />
           );
         })}
