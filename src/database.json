@@ -9,8 +9,8 @@
         "TastyDejvit.com to strona internetowa prezentująca moje umiejętności w obsłudze API",
         "Przedstawiona witryna korzysta z API dostarczanych przez RapidApi. Wyzwaniem podczas jej tworzenia było dopracowanie działania na pięciu API jednocześnie."
       ],
-      "simulationLink": "#",
-      "gitHubLink":"#"
+      "simulationLink": "https://tastydejvit.netlify.app",
+      "gitHubLink":"https://github.com/dejvitxc9/tastydejvit"
     },
     {
       "id": 2,
@@ -21,7 +21,7 @@
         "Na stronie Buvi.com udało mi się zaprojektować i zaimplementować system kont użytkowników. Użytkownik może zarejestrować swoje konto rangi Klient, z którego poziomu może dodawać buty do koszyka, edytować ich ilość oraz je usuwać. Istnieją również konta administratorów, które podczas tworzenia są zabezpieczone kodem dostępu, konto administratora nie jest zdolne do zakupów ale za to możliwe jest dodawanie butów do oferty sklepu. Na podstronie logowania znajdują się przykładowe konta demonstracyjne.",
         "Dodatkowo, zdjęcia produktów na Buvi.com są generowane za pomocą sztucznej inteligencji, co pozwala nam na szybkie tworzenie atrakcyjnych wizualizacji butów."
       ],
-      "simulationLink": "https://buvi.netlify.app/",
+      "simulationLink": "https://buvi.netlify.app",
       "gitHubLink":"https://github.com/dejvitxc9/buvishop"
     },
     {
@@ -33,8 +33,8 @@
         "Strona pozwala ona na dodawanie, edytowanie i usuwanie filmów z rankingu.",
         "Użytkownik może dodawać swoje plakaty filmów"
       ],
-      "simulationLink": "#",
-      "gitHubLink":"#"
+      "simulationLink": "https://pepeweb.netlify.app",
+      "gitHubLink":"https://github.com/dejvitxc9/pepeweb"
     }
   ],
   "androidProjects": [
