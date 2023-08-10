@@ -8,11 +8,9 @@ function Contact() {
   return (
     <div className="contact" id="contact">
       <div className="row">
-        {/* Lewa strona */}
         <div className="col-md-6 mb-4">
           <h2 className="primary-font-color">Kontakt</h2>
           <div className="row">
-            {/* Kafelki z linkami do mediów społecznościowych */}
             <div className="col-6 mb-4">
               <a
                 href="https://www.facebook.com/dawid.uniowski/"
@@ -49,7 +47,11 @@ function Contact() {
               </a>
             </div>
             <div className="col-6 mb-4">
-              <a href="#" target="_blank" rel="noreferrer">
+              <a
+                href="https://github.com/dejvitxc9?tab=repositories"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <div className="card">
                   <div className="card-body text-center custom-contact-card">
                     <FaGithubSquare size={30} className="primary-font-color" />
@@ -77,18 +79,39 @@ function Contact() {
             </div>
           </div>
         </div>
-        {/* Prawa strona */}
         <div className="col-md-6 mb-4">
           <h2 className="primary-font-color">Formularz kontaktowy</h2>
           <form name="contact" action="/contact" method="post">
             <div className="mb-3">
               <input type="hidden" name="form-name" value="contact" />
-              <label htmlFor="name" className="form-label primary-font-color">Imię i nazwisko</label>
-              <input type="text" name="name" placeholder="Imie i naziwsko" className="form-control" required />
-              <label htmlFor="email" className="form-label primary-font-color">Adres e-mail</label>
-              <input type="email" name="email" placeholder="Adres e-mail" className="form-control" required />
-              <label htmlFor="message" className="form-name primary-font-color">Wiadomość</label>
-              <textarea name="message" placeholder="Wiadomość" className="form-control"/>
+              <label htmlFor="name" className="form-label primary-font-color">
+                Imię i nazwisko
+              </label>
+              <input
+                type="text"
+                name="name"
+                placeholder="Imie i naziwsko"
+                className="form-control"
+                required
+              />
+              <label htmlFor="email" className="form-label primary-font-color">
+                Adres e-mail
+              </label>
+              <input
+                type="email"
+                name="email"
+                placeholder="Adres e-mail"
+                className="form-control"
+                required
+              />
+              <label htmlFor="message" className="form-name primary-font-color">
+                Wiadomość
+              </label>
+              <textarea
+                name="message"
+                placeholder="Wiadomość"
+                className="form-control"
+              />
               <button type="submit" className="btn-custom primary-font-color">
                 Wyślij
               </button>

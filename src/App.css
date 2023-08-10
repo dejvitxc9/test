@@ -76,7 +76,8 @@
   .projects-section-first,
   .about-me,
   .contact,
-  .cv-container {
+  .cv-container,
+  .project-details {
     background-color: var(--test2);
   }
   .projects-section-second > .grid-projects,
@@ -84,6 +85,7 @@
   .name-section,
   .picture-section,
   .language-section,
+  .details-describtion,
   ::-webkit-scrollbar-track {
     background-color: var(--test3);
   }

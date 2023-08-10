@@ -5,7 +5,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/layout/Layout";
 import Main from "./components/main/Main";
 import db from "./database.json";
-import AboutMe from "./components/about-me/AboutMe";
 import ProjectDetails from "./components/project-details/ProjectDetails";
 
 function App() {
