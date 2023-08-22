@@ -40,21 +40,27 @@
   "androidProjects": [
     {
       "id": 1,
-      "name": "Gra TicTakToe",
+      "name": "TicTakToe",
       "imageLink": "and1.jpg",
-      "describtion": "Aplikacja kółko krzyrzyk"
+      "describtion": ["Prosta gra dla dwóch osób, gracze grają tury na zmianę, a aplikacja zlicza punkty"],
+      "simulationLink": "",
+      "gitHubLink":"https://github.com/dejvitxc9/buvishop"
     },
     {
       "id": 2,
-      "name": "Aplikacja z kodami",
+      "name": "KodX",
       "imageLink": "and2.jpg",
-      "describtion": "Aplikacja na wakacje"
+      "describtion": ["Aplikacja KodX to rozwiązanie problemu z którym się zmagałem. Dzisiaj prawie każdy sklep oczekuje od nas karty stałego klienta, ale nie zawsze na telefonie jest miejsce na każdą z tych aplikacji a czas potrzebny na wyszukanie odpowiedniej aplikacji, jest zbyt długi, aby uprzyjemnić ten proces stworzyłem aplikacje która gromadzi wszystk8ie kody w jednym miejscu i poozwala na bardzo łąatwy ostęp do nich"],
+      "simulationLink": "",
+      "gitHubLink":"https://github.com/dejvitxc9/buvishop"
     },
     {
       "id": 3,
       "name": "Kalkulator średniej",
       "imageLink": "and3.jpg",
-      "describtion": "Apka, której pootrzebowałem"
+      "describtion": ["Aplikacje stworzyłem po to aby ułatwiła życie mnie i moim kolegom z klasy."],
+      "simulationLink": "",
+      "gitHubLink":"https://github.com/dejvitxc9/buvishop"
     }
   ]
 }
