@@ -29,10 +29,17 @@ function ProjectDetails({ appData }) {
             <></>
           )}
           <br />
-          <button className="btn-custom primary-font-color" onClick={gitHubApp}>
-            <FaGithubSquare size={30} />
-            {`Repozytorium ${appData.name} w serwisie GitHub`}
-          </button>
+          {appData.gitHubLink ? (
+            <button
+              className="btn-custom primary-font-color"
+              onClick={gitHubApp}
+            >
+              <FaGithubSquare size={30} />
+              {`Repozytorium ${appData.name} w serwisie GitHub`}
+            </button>
+          ) : (
+            <></>
+          )}
         </div>
         <div className="details-picture-container">
           <img
