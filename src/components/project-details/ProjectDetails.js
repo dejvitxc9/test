@@ -12,11 +12,11 @@ function ProjectDetails({ appData }) {
     <div className="project-details">
       <h1 className="primary-font-color">{appData.name}</h1>
       <div className="details-container">
-        <div className="details-describtion">
-          {appData.describtion.map((describtion, index) => {
+        <div className="details-description">
+          {appData.description.map((description, index) => {
             return (
               <p key={index} className="primary-font-color">
-                {describtion}
+                {description}
               </p>
             );
           })}

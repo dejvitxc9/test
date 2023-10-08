@@ -4,37 +4,37 @@
       "id": 1,
       "name": "TastyDejvit.com",
       "imageLink": "web1.jpg",
-      "describtion": [
+      "description": [
         "Tworzenie strony kulinarskiej z wykorzystaniem pięciu różnych API do prezentacji potraw było niezwykle ekscytującym wyzwaniem.",
         "TastyDejvit.com to strona internetowa prezentująca moje umiejętności w obsłudze API",
         "Przedstawiona witryna korzysta z API dostarczanych przez RapidApi. Wyzwaniem podczas jej tworzenia było dopracowanie działania na pięciu API jednocześnie."
       ],
       "simulationLink": "https://tastydejvit.netlify.app",
-      "gitHubLink":"https://github.com/dejvitxc9/tastydejvit"
+      "gitHubLink": "https://github.com/dejvitxc9/tastydejvit"
     },
     {
       "id": 2,
       "name": "Buvi.com",
       "imageLink": "web2.jpg",
-      "describtion": [
+      "description": [
         "Buvi.com to mój autorski projekt sklepu internetowego z butami.",
         "Na stronie Buvi.com udało mi się zaprojektować i zaimplementować system kont użytkowników. Użytkownik może zarejestrować swoje konto rangi Klient, z którego poziomu może dodawać buty do koszyka, edytować ich ilość oraz je usuwać. Istnieją również konta administratorów, które podczas tworzenia są zabezpieczone kodem dostępu, konto administratora nie jest zdolne do zakupów ale za to możliwe jest dodawanie butów do oferty sklepu. Na podstronie logowania znajdują się przykładowe konta demonstracyjne.",
         "Dodatkowo, zdjęcia produktów na Buvi.com są generowane za pomocą sztucznej inteligencji, co pozwala nam na szybkie tworzenie atrakcyjnych wizualizacji butów."
       ],
       "simulationLink": "https://buvi.netlify.app",
-      "gitHubLink":"https://github.com/dejvitxc9/buvishop"
+      "gitHubLink": "https://github.com/dejvitxc9/buvishop"
     },
     {
       "id": 3,
       "name": "Pepeweb.pl",
       "imageLink": "web3.jpg",
-      "describtion": [
+      "description": [
         "Jest to strona stworzona na podobieństwo Filmweba.",
         "Strona pozwala ona na dodawanie, edytowanie i usuwanie filmów z rankingu.",
         "Użytkownik może dodawać swoje plakaty filmów"
       ],
       "simulationLink": "https://pepeweb.netlify.app",
-      "gitHubLink":"https://github.com/dejvitxc9/pepeweb"
+      "gitHubLink": "https://github.com/dejvitxc9/pepeweb"
     }
   ],
   "androidProjects": [
@@ -42,25 +42,44 @@
       "id": 1,
       "name": "TicTakToe",
       "imageLink": "and1.jpg",
-      "describtion": ["Aplikacja TicTakToe to moja realizacja klasycznej gry w kłko i krzyżyk. Aplikacja pozwala na rozgrywkę w dwie osoby."],
+      "description": [
+        "Projekt TikTakToe to jedno z moich osiągnieć w programowaniu w języku Java. Stworzyłem tę aplikację, aby pokazać moje umiejętności w tworzeniu gier na platformy mobilne. TikTakToe to klasyczna gra w kółko i krzyżyk, która została zaprojektowana i zaimplementowana przy użyciu Java.",
+        "W aplikacji wykorzystałem RecyclerView.Adapter do wyświetlania planszy rozgrywki."
+      ],
       "simulationLink": "",
-      "gitHubLink":""
+      "gitHubLink": ""
     },
     {
       "id": 2,
-      "name": "KodX",
+      "name": "WordMaster",
       "imageLink": "and2.jpg",
-      "describtion": ["Aplikacja KodX to rozwiązanie problemu z którym się zmagałem. Dzisiaj prawie każdy sklep oczekuje od nas karty stałego klienta, ale nie zawsze na telefonie jest miejsce na każdą z tych aplikacji a czas potrzebny na wyszukanie odpowiedniej aplikacji, jest zbyt długi, aby uprzyjemnić ten proces stworzyłem aplikacje która gromadzi wszystk8ie kody w jednym miejscu i poozwala na bardzo łąatwy ostęp do nich"],
+      "description": [
+        "Aplikacja WordMaster to wszechstronne narzędzie do nauki języków obcych, które zapewnia skuteczny sposób na opanowanie nowych słówek i wyrażeń. Ta zaawansowana aplikacja oferuje użytkownikom wiele funkcji, które ułatwiają proces nauki i zapewniają pełną kontrolę nad słownictwem.",
+        "Główne funkcje aplikacji WordMaster to:",
+        "Różne rodzaje testów: WordMaster oferuje trzy rodzaje testów do nauki słówek - testy utrwalające, testy działowe i testy z najgorszych słówek. Dzięki nim możesz dostosować proces nauki do swoich potrzeb i preferencji.",
+        "Dodawanie ręczne słówek: Możesz dodawać nowe słówka do bazy danych aplikacji ręcznie. To idealne rozwiązanie, gdy chcesz uczyć się słówek już w trakcie dodawania.",
+        "Pełne zarządzanie słówkami: WordMaster umożliwia pełne zarządzanie słówkami w bazie danych. Możesz usuwać, edytować, zmieniać kategorie i inne parametry słówek, co pozwala dostosować je do własnych potrzeb.",
+        "Opcja nauki z pogrupowanymi kategoriami: Aplikacja wyświetla słówka pogrupowane według kategorii, co ułatwia naukę i organizację materiałów.",
+        "Import i eksport słówek: WordMaster umożliwia import i eksport słówek z wykorzystaniem plików tekstowych (TXT). Możesz edytować słownictwo na komputerze i przenosić je z powrotem do aplikacji oraz dzielić się słówkami z znajomymi."
+      ],
       "simulationLink": "",
-      "gitHubLink":""
+      "gitHubLink": ""
     },
     {
       "id": 3,
-      "name": "Kalkulator średniej",
+      "name": "SkaniX",
       "imageLink": "and3.jpg",
-      "describtion": ["Aplikacje stworzyłem po to aby ułatwiła życie mnie i moim kolegom z klasy."],
+      "description": [
+        "Aplikacja SkaniX to rozwiązanie, które ułatwia życie każdemu, kto korzysta z kart i kodów lojalnościowych. Dzięki SkaniX możesz trzymać wszystkie swoje karty lojalnościowe w jednym miejscu, co eliminuje konieczność przeszukiwania portfela lub aplikacji na telefonie w poszukiwaniu odpowiedniej karty. Aplikacja SkaniX jest wygodnym i intuicyjnym narzędziem do zarządzania lojalnością.",
+        "Główne funkcje aplikacji SkaniX to:",
+        "- Dodawanie kart lojalnościowych: Aplikacja umożliwia łatwe dodawanie nowych kart",
+        "Usuwanie kart: Jeśli nie potrzebujesz już danej karty, możesz ją łatwo usunąć z aplikacji, co pomaga w utrzymaniu porządku.",
+        "Przechowywanie w bazie danych: SkaniX wykorzystuje zaawansowaną bazę danych do przechowywania informacji o kartach i kodach lojalnościowych, zapewniając bezpieczeństwo i dostępność danych.",
+        "Wbudowane obrabianie zdjęć: Aplikacja posiada wbudowaną bibliotekę do przycinania zdjęć, co jest szczególnie przydatne w przypadku kart lojalnościowych w formie zdjęć, umożliwiając dostosowanie ich rozmiaru i kadrowanie do potrzeb użytkownika.",
+        "Aplikacja SkaniX to praktyczne narzędzie, które pomaga w organizacji i efektywnym zarządzaniu kartami i kodami lojalnościowymi. Dzięki niej nie tylko oszczędzasz czas, ale także unikasz zagubienia lub zapomnienia kart, co zwiększa wygodę i satysfakcję z korzystania z usług lojalnościowych różnych firm."
+      ],
       "simulationLink": "",
-      "gitHubLink":""
+      "gitHubLink": ""
     }
   ]
 }

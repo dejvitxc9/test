@@ -14,7 +14,7 @@
   grid-template-columns: repeat(auto-fit, minmax(650px, 1fr));
   gap: 10px;
 }
-.details-describtion {
+.details-description {
   padding: 1rem;
   border-radius: 25px;
 }
