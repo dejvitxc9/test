@@ -60,7 +60,7 @@ function Contact() {
               </a>
             </div>
             <div className="col-6 mb-4">
-              <a href="mailto:dawiduniowski@gmail.com">
+              <a href="mailto:dawid.uniowski@gmail.com">
                 <div className="card">
                   <div className="card-body text-center custom-contact-card">
                     <BiLogoGmail size={30} className="primary-font-color" />
