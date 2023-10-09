@@ -60,22 +60,26 @@ function Contact() {
               </a>
             </div>
             <div className="col-6 mb-4">
-              <div className="card">
-                <div className="card-body text-center custom-contact-card">
-                  <BiLogoGmail size={30} className="primary-font-color" />
-                  <p className="m-0 primary-font-color">
-                    dawid.uniowski@gmail.com
-                  </p>
+              <a href="mailto:dawiduniowski@gmail.com">
+                <div className="card">
+                  <div className="card-body text-center custom-contact-card">
+                    <BiLogoGmail size={30} className="primary-font-color" />
+                    <p className="m-0 primary-font-color link">
+                      dawid.uniowski@gmail.com
+                    </p>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
             <div className="col-6 mb-4">
-              <div className="card">
-                <div className="card-body text-center custom-contact-card">
-                  <AiFillPhone size={30} className="primary-font-color" />
-                  <p className="m-0 primary-font-color">+48 793 070 996</p>
+              <a href="tel:+48793070996">
+                <div className="card">
+                  <div className="card-body text-center custom-contact-card">
+                    <AiFillPhone size={30} className="primary-font-color" />
+                    <p className="m-0 primary-font-color">+48 793 070 996</p>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
         </div>

@@ -47,15 +47,15 @@ function AboutMe() {
             <span className="accent-font-color">Technikiem Informatykiem</span>.
           </p>
           <p className="primary-font-color">
-            Programowania uczę się od 2020. Szkołę średnią kończe w 2024. W
-            trakcie mojej edukacji zdobyłem następujące kwalifikacje:{" "}
+            Programowania uczę się od 2020 roku. Szkołę średnią kończe w 2024
+            roku. W trakcie mojej edukacji zdobyłem następujące kwalifikacje:{" "}
             <span className="no-wrap">
               <span className="qualification">Inf.02</span>,{" "}
               <span className="qualification">Inf.03</span>, i{" "}
               <span className="qualification">Inf.04</span>
             </span>
           </p>
-          <button className="btn-custom" onClick={handleDownloadClick}>
+          <button className="btn btn-custom" onClick={handleDownloadClick}>
             Pobierz CV
           </button>
         </div>

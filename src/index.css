@@ -13,12 +13,16 @@ code {
     monospace;
 }
 
+a{
+  text-decoration: none;
+}
+
 .dark-theme {
   background-color: var(--github-black);
   transition: 0.3s ease-in;
 }
 .light-theme {
-  background-color: var(--test3);
+  background-color: var(--background-light);
   transition: 0.3s ease-in;
 }
 
@@ -32,7 +36,7 @@ code {
   --github-black: #0c1015;
   --tile-background: #c7c7c7;
 
-  --test1: #c6caca;
-  --test2: #c9d5b5;
-  --test3: #f1e9da;
+  --primary-color-light: #c6caca;
+  --secondary-color-light: #c9d5b5;
+  --background-light: #f1e9da;
 }

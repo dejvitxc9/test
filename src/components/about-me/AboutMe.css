@@ -10,19 +10,21 @@
 .cv-container {
   flex: 1;
   border-radius: 25px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
   gap: 10px;
 }
 
 .picture-section,
 .language-section {
+  flex: 1 0 450px;
   padding: 1rem;
   border-radius: 25px;
   display: grid;
   place-items: center;
 }
 .name-section{
+  flex: 1 0 450px;
   padding: 1rem;
   border-radius: 25px;
   display: flex;
