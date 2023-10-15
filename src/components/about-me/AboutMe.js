@@ -18,10 +18,10 @@ function AboutMe() {
   const skills = () => {
     return languages.map((language, index) => {
       return (
-        <div key={index} className="col-md-4 col-sm-6 mb-4">
+        <div key={index} className="col-md-4 col-sm-6 mb-4 language-card">
           <div className="card shadow">
             <div className="card-body d-flex align-items-center">
-              <img src={`icons/${language.icon}`} className="language-icon" />
+              <img src={`icons/${language.icon}`} alt={language.name} className="language-icon" />
               <p className="m-0 primary-font-color">{language.name}</p>
             </div>
           </div>
