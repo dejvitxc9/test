@@ -22,7 +22,7 @@ function ProjectDetails({ appData }) {
           })}
           {appData.simulationLink ? (
             <button
-              className="btn-custom primary-font-color"
+              className="btn btn-info primary-font-color"
               onClick={tryMyApp}
             >{`Wypróbuj aplikację ${appData.name}`}</button>
           ) : (
@@ -31,7 +31,7 @@ function ProjectDetails({ appData }) {
           <br />
           {appData.gitHubLink ? (
             <button
-              className="btn-custom primary-font-color"
+              className="btn btn-info primary-font-color"
               onClick={gitHubApp}
             >
               <FaGithubSquare size={30} />

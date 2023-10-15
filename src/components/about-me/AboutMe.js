@@ -55,14 +55,14 @@ function AboutMe() {
               <span className="qualification">Inf.04</span>
             </span>
           </p>
-          <button className="btn btn-custom" onClick={handleDownloadClick}>
+          <button className="btn btn-info" onClick={handleDownloadClick}>
             Pobierz CV
           </button>
         </div>
 
         <div className="picture-section">
           <img
-            src="/pictures/dawid1.png"
+            src="/pictures/ja.png"
             alt="Zdjęcie"
             className="profile-picture"
           />

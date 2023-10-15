@@ -62,7 +62,7 @@ a{
   height: 100vh;
   transition: 0.3s ease-in-out;
   .navigationbar {
-    background-color: var(--secondary-color);
+    background-color: var(--secondary-color-light);
   }
   @media screen and (max-width: 1200px) {
     height: 100%;

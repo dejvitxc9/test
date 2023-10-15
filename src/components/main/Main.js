@@ -16,7 +16,7 @@ function Main({db}) {
         sectionTitle={"Projekty: Android"}
         itemList={db.androidProjects}
         pointer={"projects-android"}
-        className={"projects-section-second"}
+        className={"projects-section-first"}
       />
       <Contact />
     </>

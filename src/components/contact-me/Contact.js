@@ -38,7 +38,11 @@ function Contact() {
               </a>
             </div>
             <div className="col-6 mb-4">
-              <a href="/#projects-android" target="" rel="noreferrer">
+              <a
+                href="https://www.linkedin.com/in/dawid-uniowski-673b43287/"
+                target=""
+                rel="noreferrer"
+              >
                 <div className="card">
                   <div className="card-body text-center custom-contact-card">
                     <BsLinkedin size={30} className="primary-font-color" />
@@ -116,7 +120,7 @@ function Contact() {
                 placeholder="Wiadomość"
                 className="form-control"
               />
-              <button type="submit" className="btn-custom primary-font-color">
+              <button type="submit" className="btn btn-info primary-font-color">
                 Wyślij
               </button>
             </div>

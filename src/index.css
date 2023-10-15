@@ -26,17 +26,21 @@ a{
   transition: 0.3s ease-in;
 }
 
+.btn-info{
+  margin-bottom: 1rem;
+}
+
 
 :root {
-  --primary-color: #297373;
-  --secondary-color: #81b29a;
-  --accent-color: #ff8552;
+  --primary-color: #161B22;
+  --secondary-color: #22272E;
+  --accent-color: #40a8c4;
   --dark-color: #161032;
 
   --github-black: #0c1015;
   --tile-background: #c7c7c7;
 
-  --primary-color-light: #c6caca;
-  --secondary-color-light: #c9d5b5;
-  --background-light: #f1e9da;
+  --primary-color-light: #dee4e9;
+  --secondary-color-light: #cecece;
+  --background-light: #F7FFF7;
 }

@@ -4,7 +4,7 @@ import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 import { Link as RouterLink } from "react-router-dom";
-import { Outlet, useLocation, useNavigate  } from "react-router-dom";
+import { Outlet, useLocation, useNavigate } from "react-router-dom";
 
 function Layout({ handleThemeChange, theme }) {
   const [switchChecked, setSwitchChecked] = useState(true);
@@ -22,7 +22,7 @@ function Layout({ handleThemeChange, theme }) {
     setClick(!click);
   };
   const location = useLocation();
-  const navigate = useNavigate ();
+  const navigate = useNavigate();
   const closeMenu = () => {
     setClick(false);
     if (location.pathname !== "/") {
@@ -30,27 +30,33 @@ function Layout({ handleThemeChange, theme }) {
     }
   };
 
-  // const goToHomePage = () => {
-  //   if (location.pathname !== "/") {
-  //     history.push("/");
-  //   }
-  // };
-
   const offsetValue = -100;
+
+  const logoTheme = () => {
+    if (theme == "App-light") {
+      return (
+        <img
+          className="logo"
+          src={"./icons/new-dawid-uniowski-logo-light.png"}
+          alt="logo"
+        />
+      );
+    } else {
+      return (
+        <img
+          className="logo"
+          src={"./icons/new-dawid-uniowski-logo-dark.png"}
+          alt="logo"
+        />
+      );
+    }
+  };
 
   return (
     <div className={theme}>
       <nav className="navigationbar">
-        <RouterLink
-          to="/#projects-section-second"
-          onClick={closeMenu}
-          className="primary-font-color"
-        >
-          <img
-            className="logo"
-            src={"./icons/dawid-uniowski-logo.png"}
-            alt="logo"
-          />
+        <RouterLink to="#" onClick={closeMenu} className="primary-font-color">
+          {logoTheme()}
         </RouterLink>
 
         <div className="hamburger" onClick={handleClick}>

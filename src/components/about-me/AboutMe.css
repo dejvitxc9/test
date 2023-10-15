@@ -35,13 +35,15 @@
 .profile-picture {
   width: auto;
   height: 40rem;
-  filter: drop-shadow(5px 5px var(--accent-color));
+  /* filter: drop-shadow(5px 5px var(--accent-color)); */
+  filter: grayscale(1);
   transition: 0.3s ease-in-out;
 }
-.profile-picture:hover {
+/* .profile-picture:hover {
   filter: drop-shadow(25px 25px var(--accent-color));
+  filter: grayscale(0);
   transition: 0.3s ease-in-out;
-}
+} */
 .name-line {
   font-variant: small-caps;
 }
@@ -70,7 +72,7 @@
 }
 
 
-.btn-custom {
+/* .btn-custom {
   background-color: var(--accent-color);
   color: #ffffff;
   border: none;
@@ -88,4 +90,4 @@
 
 .btn-custom:active {
   background-color: #ff7700;
-}
+} */
