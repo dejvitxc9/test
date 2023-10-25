@@ -31,8 +31,8 @@ function AboutMe() {
   };
 
   return (
-    <div className="about-me" id="curriculum-vitae">
-      <h2 className="primary-font-color">Curriculum Vitae</h2>
+    <div className="about-me" id="o-mnie">
+      <h2 className="primary-font-color">O mnie</h2>
       <div className="cv-container">
         <div className="name-section">
           <h1 className="primary-font-color name-line">
@@ -62,7 +62,7 @@ function AboutMe() {
 
         <div className="picture-section">
           <img
-            src="/pictures/ja.png"
+            src="/pictures/dawiduniowskiportret.png"
             alt="Zdjęcie"
             className="profile-picture"
           />

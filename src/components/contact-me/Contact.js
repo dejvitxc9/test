@@ -108,16 +108,16 @@ function Contact() {
               <input
                 type="email"
                 name="email"
-                placeholder="Adres e-mail"
+                placeholder="example@exp.com"
                 className="form-control"
                 required
               />
-              <label htmlFor="message" className="form-name primary-font-color">
+              <label htmlFor="message" className="form-label primary-font-color">
                 Wiadomość
               </label>
               <textarea
                 name="message"
-                placeholder="Wiadomość"
+                placeholder="Wiadomość..."
                 className="form-control"
               />
               <button type="submit" className="btn btn-info primary-font-color">

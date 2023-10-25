@@ -71,7 +71,7 @@ function Layout({ handleThemeChange, theme }) {
           <li className="nav-item">
             {/* <a href="/" onClick={closeMenu}> */}
             <Link
-              to="curriculum-vitae"
+              to="o-mnie"
               spy={true}
               smooth={false}
               offset={offsetValue}
@@ -79,7 +79,7 @@ function Layout({ handleThemeChange, theme }) {
               onClick={closeMenu}
               className="primary-font-color"
             >
-              Curriculum Vitae
+              O mnie
             </Link>
           </li>
           <li className="nav-item">
