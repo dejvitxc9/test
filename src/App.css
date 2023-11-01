@@ -1,12 +1,16 @@
 * {
   transition: 0.3s ease-in-out;
 }
-a{
+a {
   text-decoration: none !important;
+}
+.profile-picture {
+  width: auto;
+  height: 40rem; 
 }
 
 .App-dark {
-  min-width: 720px;
+  /* min-width: 720px; */
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -14,10 +18,17 @@ a{
   .navigationbar {
     background-color: var(--primary-color);
   }
+  
   @media screen and (max-width: 1200px) {
     height: 100%;
     .nav-menu {
       background-color: #00000090;
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(5px);
+    }
+    .profile-picture {
+      width: auto;
+      height: 30rem; 
     }
   }
 
@@ -56,7 +67,7 @@ a{
 }
 
 .App-light {
-  min-width: 720px;
+  /* min-width: 720px; */
   display: flex;
   flex-direction: column;
   height: 100vh;
@@ -68,6 +79,12 @@ a{
     height: 100%;
     .nav-menu {
       background-color: #ffffff90;
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(5px);
+    }
+    .profile-picture {
+      width: auto;
+      height: 30rem; 
     }
   }
 

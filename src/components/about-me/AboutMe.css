@@ -16,7 +16,7 @@
 }
 
 .picture-section{
-  flex: 1 0 450px;
+  flex: 1 0 400px;
   padding: 1rem 1rem 0rem 1rem;
   border-radius: 25px;
   display: flex;
@@ -28,7 +28,7 @@
 }
 
 .language-section {
-  flex: 1 0 450px;
+  flex: 1 0 400px;
   padding: 1rem;
   border-radius: 25px;
   display: grid;
@@ -36,17 +36,12 @@
 }
 
 .name-section{
-  flex: 1 0 450px;
+  flex: 1 0 400px;
   padding: 1rem;
   border-radius: 25px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-}
-
-.profile-picture {
-  width: auto;
-  height: 40rem; 
 }
 
 .name-line {
