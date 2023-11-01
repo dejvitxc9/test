@@ -16,7 +16,7 @@
 }
 
 .picture-section{
-  flex: 1 0 400px;
+  flex: 1 0 350px;
   padding: 1rem 1rem 0rem 1rem;
   border-radius: 25px;
   display: flex;
@@ -28,7 +28,7 @@
 }
 
 .language-section {
-  flex: 1 0 400px;
+  flex: 1 0 350px;
   padding: 1rem;
   border-radius: 25px;
   display: grid;
@@ -36,7 +36,7 @@
 }
 
 .name-section{
-  flex: 1 0 400px;
+  flex: 1 0 350px;
   padding: 1rem;
   border-radius: 25px;
   display: flex;
@@ -65,16 +65,9 @@
   transition: 0.2s ease-in-out;;
 }
 
-/* .card:hover .language-icon{
-  filter: grayscale(0%);
-} */
-
-@media screen and (max-width: 940px) {
-  /* .language-icon{
-    filter: grayscale(0%);
-  } */
+.language-card{
+  min-width: 200px;
 }
-
 .language-card:hover{
   scale: 1.03;
 }

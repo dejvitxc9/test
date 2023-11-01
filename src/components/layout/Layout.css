@@ -23,9 +23,13 @@
 .navigationbar > ul {
   list-style-type: none;
 }
+.logoContainer{
+
+}
 .logo {
-  width: auto;
-  height: 4rem;
+  width: 50vw;
+  height: auto;
+  max-width: 340px;
 }
 .nav-item {
   padding: 1rem;

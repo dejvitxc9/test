@@ -36,7 +36,7 @@ function Layout({ handleThemeChange, theme }) {
     if (theme == "App-light") {
       return (
         <img
-          className="logo"
+          className="image-fluid logo"
           src={"./icons/new-dawid-uniowski-logo-light.png"}
           alt="logo"
         />
@@ -44,7 +44,7 @@ function Layout({ handleThemeChange, theme }) {
     } else {
       return (
         <img
-          className="logo"
+          className="image-fluid logo"
           src={"./icons/new-dawid-uniowski-logo-dark.png"}
           alt="logo"
         />
@@ -55,9 +55,14 @@ function Layout({ handleThemeChange, theme }) {
   return (
     <div className={theme}>
       <nav className="navigationbar">
-        <RouterLink to="#" onClick={closeMenu} className="primary-font-color">
+        <Link
+          to="o-mnie"
+          onClick={closeMenu}
+          offset={offsetValue}
+          className="logoContainer primary-font-color"
+        >
           {logoTheme()}
-        </RouterLink>
+        </Link>
 
         <div className="hamburger" onClick={handleClick}>
           {click ? (

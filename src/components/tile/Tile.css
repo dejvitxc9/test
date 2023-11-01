@@ -1,6 +1,6 @@
 .tile {
-  flex: 1 0 400px;
-  height: 25rem;
+  flex: 1 0 350px;
+  /* height: 25rem; */
   border-radius: 25px;
   box-shadow: 0 0 transparent;
   transform: scale(1);
@@ -13,11 +13,6 @@
   box-shadow: 5px 5px var(--accent-color);
   transform: scale(1.02);
   z-index: 1;
-
-  /* transform-origin: center;
-  transform: perspective(1000px) rotateY(15deg);
-  transition: 0.5s; */
-
   /* Do usunięcia */
   .project-picture {
     filter: blur(0px);

@@ -63,7 +63,7 @@ function Contact() {
                 </div>
               </a>
             </div>
-            <div className="col-6 mb-4">
+            <div className="col-12 col-md-6 mb-4">
               <a href="mailto:dawid.uniowski@gmail.com">
                 <div className="card">
                   <div className="card-body text-center custom-contact-card">
@@ -75,7 +75,7 @@ function Contact() {
                 </div>
               </a>
             </div>
-            <div className="col-6 mb-4">
+            <div className="col-12 col-md-6 mb-4">
               <a href="tel:+48793070996">
                 <div className="card">
                   <div className="card-body text-center custom-contact-card">

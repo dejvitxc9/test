@@ -18,8 +18,9 @@
       "imageLink": "web2.jpg",
       "description": [
         "Buvi.com to mój autorski projekt sklepu internetowego z butami.",
-        "Na stronie Buvi.com udało mi się zaprojektować i zaimplementować system kont użytkowników. Użytkownik może zarejestrować swoje konto rangi Klient, z którego poziomu może dodawać buty do koszyka, edytować ich ilość oraz je usuwać. Istnieją również konta administratorów, które podczas tworzenia są zabezpieczone kodem dostępu, konto administratora nie jest zdolne do zakupów ale za to możliwe jest dodawanie butów do oferty sklepu. Na podstronie logowania znajdują się przykładowe konta demonstracyjne.",
-        "Dodatkowo, zdjęcia produktów na Buvi.com są generowane za pomocą sztucznej inteligencji, co pozwala nam na szybkie tworzenie atrakcyjnych wizualizacji butów."
+        "Na stronie Buvi.com udało mi się zaprojektować i zaimplementować system kont użytkowników. Użytkownik może zarejestrować swoje konto o randze Klient, z którego poziomu może dodawać buty do koszyka, edytować ich ilość oraz je usuwać",
+        "Istnieją również konta o randze Administrator, które są zabezpieczone kodem dostępu, konto administratora nie jest zdolne do zakupów, ale za to możliwe jest dodawanie butów do oferty sklepu. Na podstronie logowania znajdują się przykładowe konta demonstracyjne.",
+        "Zdjęcia produktów na Buvi.com zostały wygenerowane za pomocą sztucznej inteligencji, co pozwoliło na szybkie tworzenie atrakcyjnych wizualizacji butów."
       ],
       "simulationLink": "https://buvi.netlify.app",
       "gitHubLink": "https://github.com/dejvitxc9/buvishop"
@@ -43,8 +44,9 @@
       "name": "TicTakToe",
       "imageLink": "and1.jpg",
       "description": [
-        "Projekt TikTakToe to jedno z moich osiągnieć w programowaniu w języku Java. Stworzyłem tę aplikację, aby pokazać moje umiejętności w tworzeniu gier na platformy mobilne. TikTakToe to klasyczna gra w kółko i krzyżyk, która została zaprojektowana i zaimplementowana przy użyciu Java.",
-        "W aplikacji wykorzystałem RecyclerView.Adapter do wyświetlania planszy rozgrywki."
+        "Projekt TikTakToe to jedno z moich osiągnieć w programowaniu w języku Java. Stworzyłem tę aplikację, aby pokazać moje umiejętności w tworzeniu gier na platformy mobilne. TikTakToe to klasyczna gra w kółko i krzyżyk, która została zaprojektowana i zaimplementowana przy użyciu języka programowania Java oraz XML.",
+        "W aplikacji wykorzystałem RecyclerView.Adapter do wyświetlania planszy rozgrywki.",
+        "Gra ma zarówno tryb dwuosobowy jak i jednoosobowy. W trybie dwuosobowym grcze grają turami a aktualną kolejność wskazazana jest u góry ekranu. Tryb gry z komputerem można włączyć klikając na nazwę Player 2"
       ],
       "simulationLink": "",
       "gitHubLink": ""

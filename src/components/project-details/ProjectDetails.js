@@ -42,11 +42,13 @@ function ProjectDetails({ appData }) {
           )}
         </div>
         <div className="details-picture-container">
-          <img
-            src={`pictures/${appData.imageLink}`}
-            alt="zdjęcie projektu"
-            className="details-picture"
-          />
+          <a href={`pictures/${appData.imageLink}`} alt="zdjęcie projektu" className="fullImage">
+            <img
+              src={`pictures/${appData.imageLink}`}
+              alt="zdjęcie projektu"
+              className="details-picture"
+            />
+          </a>
         </div>
       </div>
     </div>
