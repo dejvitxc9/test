@@ -23,7 +23,7 @@ function AboutMe() {
             <div className="card-body d-flex align-items-center">
               <img
                 src={`icons/${language.icon}`}
-                alt={language.name}
+                alt={`ikona języka programowania - ${language.name}`}
                 className="language-icon"
               />
               <p className="m-0 primary-font-color">{language.name}</p>
@@ -67,7 +67,7 @@ function AboutMe() {
         <div className="picture-section">
           <img
             src="/pictures/dawiduniowskiportret.png"
-            alt="Zdjęcie"
+            alt="Zdjęcie portretowe przedstawiające Dawida Uniowskiego"
             className="profile-picture"
           />
         </div>

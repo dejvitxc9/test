@@ -38,7 +38,7 @@ function Layout({ handleThemeChange, theme }) {
         <img
           className="image-fluid logo"
           src={"./icons/new-dawid-uniowski-logo-light.png"}
-          alt="logo"
+          alt="logo Dawid Uniowski - light"
         />
       );
     } else {
@@ -46,7 +46,7 @@ function Layout({ handleThemeChange, theme }) {
         <img
           className="image-fluid logo"
           src={"./icons/new-dawid-uniowski-logo-dark.png"}
-          alt="logo"
+          alt="logo Dawid Uniowski - dark"
         />
       );
     }
@@ -133,7 +133,7 @@ function Layout({ handleThemeChange, theme }) {
             checkedIcon={
               <img
                 src="/icons/dark-theme.png"
-                alt="Zaznaczony"
+                alt="dark mode"
                 height={28}
                 width={28}
               />
@@ -141,7 +141,7 @@ function Layout({ handleThemeChange, theme }) {
             uncheckedIcon={
               <img
                 src="/icons/light-theme.png"
-                alt="Zaznaczony"
+                alt="light mode"
                 height={28}
                 width={28}
               />

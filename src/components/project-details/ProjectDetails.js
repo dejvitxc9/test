@@ -42,10 +42,10 @@ function ProjectDetails({ appData }) {
           )}
         </div>
         <div className="details-picture-container">
-          <a href={`pictures/${appData.imageLink}`} alt="zdjęcie projektu" className="fullImage">
+          <a href={`pictures/${appData.imageLink}`} className="fullImage">
             <img
               src={`pictures/${appData.imageLink}`}
-              alt="zdjęcie projektu"
+              alt={`zdjęcie przedstawiające projekt o naziwe ${appData.imageLink}`}
               className="details-picture"
             />
           </a>
