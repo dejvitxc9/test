@@ -68,6 +68,7 @@ function AboutMe() {
           <img
             src="/pictures/dawiduniowskiportret.png"
             alt="Zdjęcie portretowe przedstawiające Dawida Uniowskiego"
+            loading="lazy"
             className="profile-picture"
           />
         </div>
