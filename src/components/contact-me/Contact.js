@@ -97,6 +97,7 @@ function Contact() {
               </label>
               <input
                 type="text"
+                id="name"
                 name="name"
                 placeholder="Imie i naziwsko"
                 className="form-control"
@@ -107,6 +108,7 @@ function Contact() {
               </label>
               <input
                 type="email"
+                id="email"
                 name="email"
                 placeholder="example@exp.com"
                 className="form-control"
@@ -116,6 +118,7 @@ function Contact() {
                 Wiadomość
               </label>
               <textarea
+              id="message"
                 name="message"
                 placeholder="Wiadomość..."
                 className="form-control"

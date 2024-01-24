@@ -3,17 +3,16 @@ import Switch from "react-switch";
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
-import { Link as RouterLink } from "react-router-dom";
 import { Outlet, useLocation, useNavigate } from "react-router-dom";
 
-function Layout({ handleThemeChange, theme }) {
-  const [switchChecked, setSwitchChecked] = useState(true);
+function Layout({ handleThemeChange, isThemeDark }) {
+  console.log(isThemeDark);
+  
   const handleChange = (checked) => {
-    setSwitchChecked(checked);
     if (checked) {
-      handleThemeChange(["App-dark", "dark-theme"]);
+      handleThemeChange("dark-theme");
     } else {
-      handleThemeChange(["App-light", "light-theme"]);
+      handleThemeChange("light-theme");
     }
   };
 
@@ -33,15 +32,7 @@ function Layout({ handleThemeChange, theme }) {
   const offsetValue = -100;
 
   const logoTheme = () => {
-    if (theme == "App-light") {
-      return (
-        <img
-          className="image-fluid logo"
-          src={"./icons/new-dawid-uniowski-logo-light.png"}
-          alt="logo Dawid Uniowski - light"
-        />
-      );
-    } else {
+    if (isThemeDark) {
       return (
         <img
           className="image-fluid logo"
@@ -49,11 +40,19 @@ function Layout({ handleThemeChange, theme }) {
           alt="logo Dawid Uniowski - dark"
         />
       );
+    } else {
+      return (
+        <img
+          className="image-fluid logo"
+          src={"./icons/new-dawid-uniowski-logo-light.png"}
+          alt="logo Dawid Uniowski - light"
+        />
+      );
     }
   };
 
   return (
-    <div className={theme}>
+    <div className={isThemeDark ? "App-dark" : "App-light"}>
       <nav className="navigationbar">
         <Link
           to="o-mnie"
@@ -129,7 +128,7 @@ function Layout({ handleThemeChange, theme }) {
           <Switch
             className="theme-switch"
             onChange={handleChange}
-            checked={switchChecked}
+            checked={isThemeDark}
             checkedIcon={
               <img
                 src="/icons/dark-theme.png"

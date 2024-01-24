@@ -15,7 +15,7 @@ function ProjectDetails({ appData }) {
         <div className="details-description">
           {appData.description.map((description, index) => {
             return (
-              <p key={index} className="primary-font-color">
+              <p key={index} className="primary-font-color text-1">
                 {description}
               </p>
             );

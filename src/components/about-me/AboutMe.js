@@ -1,11 +1,6 @@
 import "./AboutMe.css";
 
 function AboutMe() {
-  const cvLink = "files/cv-test.pdf";
-
-  const handleDownloadClick = () => {
-    window.open(cvLink, "_blank");
-  };
   const languages = [
     { name: "React JS", icon: "react.png" },
     { name: "JavaScript", icon: "js.png" },
