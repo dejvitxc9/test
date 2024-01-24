@@ -59,9 +59,6 @@ function AboutMe() {
               <span className="qualification">Inf.04</span>
             </span>
           </p>
-          {/* <button className="btn btn-info" onClick={handleDownloadClick}>
-            Pobierz CV
-          </button> */}
         </div>
 
         <div className="picture-section">
