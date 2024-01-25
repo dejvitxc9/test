@@ -114,11 +114,14 @@ function Contact() {
                 className="form-control"
                 required
               />
-              <label htmlFor="message" className="form-label primary-font-color">
+              <label
+                htmlFor="message"
+                className="form-label primary-font-color"
+              >
                 Wiadomość
               </label>
               <textarea
-              id="message"
+                id="message"
                 name="message"
                 placeholder="Wiadomość..."
                 className="form-control"

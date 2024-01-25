@@ -5,9 +5,9 @@
       "name": "TastyDejvit.com",
       "imageLink": "web1.jpg",
       "description": [
-        "Tworzenie strony kulinarskiej z wykorzystaniem pięciu różnych API do prezentacji potraw było niezwykle ekscytującym wyzwaniem.",
-        "TastyDejvit.com to strona internetowa prezentująca moje umiejętności w obsłudze API",
-        "Przedstawiona witryna korzysta z API dostarczanych przez RapidApi. Wyzwaniem podczas jej tworzenia było dopracowanie działania na pięciu API jednocześnie."
+        "Tworzenie strony TastyDejvit.com przy wykorzystaniu pięciu różnych API do prezentacji potraw było niezwykle ekscytującym wyzwaniem.",
+        "Projekt ten prezentuje moje umiejętności w posługiwaniu się interfejsem API. Zaplecze strony korzysta z API dostarzanych przez RapidApi",
+        "Na stronie dostępne są różne kategorie potraw, takie jak: desery, dania meksykańskie, dania kuchni chińskiej, czy koktaile. Każda z tych zakładaek ma swoje wyjątkowo promowane danie dnia. Pokazane przepisy można otworzyć i podejrzeć w szczegułach ich składniki oraz proces wykonania. Interesującą funkcjonalnością jest poziom trudności wyświetlany poniżej nazwy każdej potrawy, wraz z odpowiadającym mu kolorem."
       ],
       "simulationLink": "https://tastydejvit.netlify.app",
       "gitHubLink": "https://github.com/dejvitxc9/tastydejvit"
@@ -18,8 +18,8 @@
       "imageLink": "web2.jpg",
       "description": [
         "Buvi.com to mój autorski projekt sklepu internetowego z butami.",
-        "Na stronie Buvi.com udało mi się zaprojektować i zaimplementować system kont użytkowników. Użytkownik może zarejestrować swoje konto o randze Klient, z którego poziomu może dodawać buty do koszyka, edytować ich ilość oraz je usuwać",
-        "Istnieją również konta o randze Administrator, które są zabezpieczone kodem dostępu, konto administratora nie jest zdolne do zakupów, ale za to możliwe jest dodawanie butów do oferty sklepu. Na podstronie logowania znajdują się przykładowe konta demonstracyjne.",
+        "Na stronie Buvi.com udało mi się zaprojektować i zaimplementować system kont użytkowników. Użytkownik może zarejestrować swoje konto o randze Klient.Konto rangi Klient jest uprawnione do przeglądania sklepu, dodawania zakupów do koszyka oraz jego edycji.",
+        "W systemie istnieją również konta o randze Administrator. Konta te zabezpieczone są kodem dostępu, konto Administrator nie jest zdolne do zakupów, ale za to uprawnione jest do dodawania butów do oferty sklepu. Na podstronie 'Zaloguj' znajdują się przykładowe konta demonstracyjne.",
         "Zdjęcia produktów na Buvi.com zostały wygenerowane za pomocą sztucznej inteligencji, co pozwoliło na szybkie tworzenie atrakcyjnych wizualizacji butów."
       ],
       "simulationLink": "https://buvi.netlify.app",
@@ -30,9 +30,9 @@
       "name": "Pepeweb.pl",
       "imageLink": "web3.jpg",
       "description": [
-        "Jest to strona stworzona na podobieństwo Filmweba.",
-        "Strona pozwala ona na dodawanie, edytowanie i usuwanie filmów z rankingu.",
-        "Użytkownik może dodawać swoje plakaty filmów"
+        "Strona Pepeweb.pl powstała na podobieństwo polskiego serwisu Filmweb. Na stronie dodałem w pełni działający system zarządzania listą filmów.",
+        "W sekcji dodawanie po wpisaniu danych dotyczących filmu można za pomocą linku dodać plakat promujacy film.",
+        "Planuję dodanie opcji komentowania i oceniania filmów. Planuję również migracji na zewnętrzny serwer SQL"
       ],
       "simulationLink": "https://pepeweb.netlify.app",
       "gitHubLink": "https://github.com/dejvitxc9/pepeweb"
@@ -74,10 +74,9 @@
       "description": [
         "Aplikacja SkaniX to rozwiązanie, które ułatwia życie każdemu, kto korzysta z kart i kodów lojalnościowych. Dzięki SkaniX możesz trzymać wszystkie swoje karty lojalnościowe w jednym miejscu, co eliminuje konieczność przeszukiwania portfela lub aplikacji na telefonie w poszukiwaniu odpowiedniej karty. Aplikacja SkaniX jest wygodnym i intuicyjnym narzędziem do zarządzania lojalnością.",
         "Główne funkcje aplikacji SkaniX to:",
-        "- Dodawanie kart lojalnościowych: Aplikacja umożliwia łatwe dodawanie nowych kart",
-        "Usuwanie kart: Jeśli nie potrzebujesz już danej karty, możesz ją łatwo usunąć z aplikacji, co pomaga w utrzymaniu porządku.",
-        "Przechowywanie w bazie danych: SkaniX wykorzystuje zaawansowaną bazę danych do przechowywania informacji o kartach i kodach lojalnościowych, zapewniając bezpieczeństwo i dostępność danych.",
-        "Wbudowane obrabianie zdjęć: Aplikacja posiada wbudowaną bibliotekę do przycinania zdjęć, co jest szczególnie przydatne w przypadku kart lojalnościowych w formie zdjęć, umożliwiając dostosowanie ich rozmiaru i kadrowanie do potrzeb użytkownika.",
+        "Dodawanie i zarządzanie kartami lojalnościowymi: Aplikacja umożliwia łatwe dodawanie nowych kart, edycję tych które się zmieniły oraz usuwanie tych już nie potrzebnych",
+        "Przechowywanie w bazie danych: SkaniX zapisuje zdjęcia w podfolderze ze zdjęciami i przechowuje do nich ścieżki w bazie Danych SQLite.",
+        "Wbudowane obrabianie zdjęć: Aplikacja posiada wbudowaną bibliotekę do przycinania zdjęć, co jest szczególnie przydatne w przypadku kart lojalnościowych w formie zdjęć bądź zrzutów z ekranu, umożliwiając dostosowanie ich rozmiaru i kadrowanie do potrzeb użytkownika.",
         "Aplikacja SkaniX to praktyczne narzędzie, które pomaga w organizacji i efektywnym zarządzaniu kartami i kodami lojalnościowymi. Dzięki niej nie tylko oszczędzasz czas, ale także unikasz zagubienia lub zapomnienia kart, co zwiększa wygodę i satysfakcję z korzystania z usług lojalnościowych różnych firm."
       ],
       "simulationLink": "",
