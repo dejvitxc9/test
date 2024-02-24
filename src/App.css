@@ -39,14 +39,13 @@ a {
     background-color: var(--github-black);
   }
   .projects-section-second,
-  .projects-section-first > .grid-projects,
+
   .about-me,
   .cv-container,
   .project-details {
     background-color: var(--secondary-color);
   }
   .projects-section-first,
-  .projects-section-second > .grid-projects,
   .name-section,
   .picture-section,
   .language-section,
@@ -101,8 +100,6 @@ a {
   .project-details {
     background-color: var(--secondary-color-light);
   }
-  .projects-section-second > .grid-projects,
-  .projects-section-first > .grid-projects,
   .name-section,
   .picture-section,
   .language-section,

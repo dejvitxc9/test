@@ -88,7 +88,7 @@ function Contact() {
           </div>
         </div>
         <div className="col-md-6 mb-4">
-          <h2 className="primary-font-color">Formularz kontaktowy</h2>
+          <h2 className="primary-font-color">Formularz</h2>
           <form name="contact" action="/contact" method="post">
             <div className="mb-3">
               <input type="hidden" name="form-name" value="contact" />
