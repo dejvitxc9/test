@@ -36,11 +36,11 @@ a {
 }
 
 :root {
+  --accent-color: #40a8c4;
+
   --primary-color: #161b22;
   --secondary-color: #22272e;
-  --accent-color: #40a8c4;
   --dark-color: #161032;
-
   --github-black: #0c1015;
 
   --primary-color-light: #E6E6E6;

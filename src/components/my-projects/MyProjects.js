@@ -3,7 +3,7 @@ import Tile from "../tile/Tile";
 
 function MyProject({ sectionTitle, itemList, pointer, className }) {
   return (
-    <div className={className} id={pointer}>
+    <div className="projects-section" id={pointer}>
       <h2 className="primary-font-color">{sectionTitle}</h2>
       <div className="grid-projects">
         {itemList.map((item, index) => {

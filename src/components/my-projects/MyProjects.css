@@ -1,16 +1,14 @@
-.projects-section-first,
-.projects-section-second {
+.projects-section {
   max-width: 2000px;
   padding: 1rem;
   margin: auto;
-  margin-top: 2rem;
+  margin-top: 10rem;
   border-radius: 25px;
 }
 .grid-projects {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-
 }
 
 .grid-projects:hover .project-picture {
