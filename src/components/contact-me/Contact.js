@@ -6,7 +6,7 @@ import { AiFillInstagram, AiFillPhone } from "react-icons/ai";
 
 function Contact() {
   return (
-    <div className="contact" id="contact">
+    <div className="contact anim-apear" id="contact">
       <div className="row">
         <div className="col-md-6 mb-4">
           <h2 className="primary-font-color">Kontakt</h2>

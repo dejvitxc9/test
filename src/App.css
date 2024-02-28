@@ -10,6 +10,20 @@ a {
   height: 40rem;
 }
 
+.anim-apear{
+  animation: apear linear forwards;
+  animation-timeline: view();
+  animation-range: 250px 500px;
+  scale: 0.8;
+  opacity: 0;
+}
+@keyframes apear {
+  to {
+    scale: 1;
+    opacity: 1;
+  }
+}
+
 .App-dark {
   /* min-width: 720px; */
   display: flex;
