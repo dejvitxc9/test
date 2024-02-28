@@ -11,9 +11,10 @@ a {
 }
 
 .anim-apear{
-  animation: apear linear forwards;
-  animation-range: 150px 400px;
-  animation-timeline: view();
+  animation: apear linear forwards !important; 
+  animation-range: 150px 400px !important; 
+  animation-timeline: view() !important;
+  -webkit-animation: none;
   scale: 0.8;
   opacity: 0;
 }
