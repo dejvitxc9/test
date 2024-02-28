@@ -14,7 +14,6 @@ a {
   animation: apear linear forwards;
   animation-range: 150px 400px;
   animation-timeline: view();
-  -webkit-animation: apear linear forwards view();
   scale: 0.8;
   opacity: 0;
 }
