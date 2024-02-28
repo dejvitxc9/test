@@ -10,8 +10,11 @@ a {
   height: 40rem;
 }
 @media (prefers-reduced-motion: no-preference) {
+  
   .anim-apear {
-    animation: apear linear forwards !important;
+    animation-name: apear;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
     animation-range: 150px 400px !important;
     animation-timeline: view() !important;
     scale: 0.8;
