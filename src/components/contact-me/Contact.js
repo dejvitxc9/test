@@ -99,7 +99,7 @@ function Contact() {
                 type="text"
                 id="name"
                 name="name"
-                placeholder="Imie i naziwsko"
+                placeholder="Imie i nazwisko"
                 className="form-control"
                 required
               />

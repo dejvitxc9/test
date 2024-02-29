@@ -72,12 +72,12 @@
       "name": "SkaniX",
       "imageLink": "and3.jpg",
       "description": [
-        "Aplikacja SkaniX to rozwiązanie, które ułatwia życie każdemu, kto korzysta z kart i kodów lojalnościowych. Dzięki SkaniX możesz trzymać wszystkie swoje karty lojalnościowe w jednym miejscu, co eliminuje konieczność przeszukiwania portfela lub aplikacji na telefonie w poszukiwaniu odpowiedniej karty. Aplikacja SkaniX jest wygodnym i intuicyjnym narzędziem do zarządzania lojalnością.",
+        "Aplikacja SkaniX to rozwiązanie, które ułatwia życie każdemu, kto korzysta z kart i kodów lojalnościowych. Ile razy znadzyło Ci się że aplikacje z zniżkami w sieciówkach nie zasdziałała, lub konto było wylogowane. To już nie problem, rozwiązaniem jest aplikacja SkaniX możesz trzymać wszystkie swoje karty lojalnościowe w jednym miejscu. Aplikacja SkaniX jest wygodnym i intuicyjnym narzędziem do zarządzania programami partnerskimi i kartami lojalnościowymi.",
         "Główne funkcje aplikacji SkaniX to:",
-        "Dodawanie i zarządzanie kartami lojalnościowymi: Aplikacja umożliwia łatwe dodawanie nowych kart, edycję tych które się zmieniły oraz usuwanie tych już nie potrzebnych",
+        "Dodawanie i zarządzanie kartami lojalnościowymi: Aplikacja umożliwia łatwe dodawanie nowych kart poprzez zrzuty ekranu, edycję istniejących oraz usuwanie tych już nie potrzebnych",
         "Przechowywanie w bazie danych: SkaniX zapisuje zdjęcia w podfolderze ze zdjęciami i przechowuje do nich ścieżki w bazie Danych SQLite.",
         "Wbudowane obrabianie zdjęć: Aplikacja posiada wbudowaną bibliotekę do przycinania zdjęć, co jest szczególnie przydatne w przypadku kart lojalnościowych w formie zdjęć bądź zrzutów z ekranu, umożliwiając dostosowanie ich rozmiaru i kadrowanie do potrzeb użytkownika.",
-        "Aplikacja SkaniX to praktyczne narzędzie, które pomaga w organizacji i efektywnym zarządzaniu kartami i kodami lojalnościowymi. Dzięki niej nie tylko oszczędzasz czas, ale także unikasz zagubienia lub zapomnienia kart, co zwiększa wygodę i satysfakcję z korzystania z usług lojalnościowych różnych firm."
+        "Aplikacja SkaniX to praktyczne narzędzie, które pomaga w organizacji i efektywnym zarządzaniu kartami lojalnościowymi. Dzięki niej nie tylko oszczędzasz czas, ale także unikasz zgubienia kart, jak również i poprawisz wygodę."
       ],
       "simulationLink": "",
       "gitHubLink": ""
