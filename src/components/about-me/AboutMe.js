@@ -66,7 +66,7 @@ function AboutMe() {
           <p className="primary-font-color">
             Programowania uczę się od 2020 roku. Szkołę średnią kończe w 2024
             roku. W trakcie mojej edukacji zdobyłem następujące kwalifikacje:{" "}
-            {/* <span className="no-wrap">
+            <span className="no-wrap">
               <OverlayTrigger placement="bottom" overlay={tooltip1}>
                 <a>
                   <span className="qualification">Inf.02</span>,{" "}
@@ -82,7 +82,7 @@ function AboutMe() {
                   <span className="qualification">Inf.04</span>
                 </a>
               </OverlayTrigger>
-            </span> */}
+            </span>
           </p>
         </div>
 
