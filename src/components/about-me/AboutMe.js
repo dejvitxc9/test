@@ -1,4 +1,5 @@
 import "./AboutMe.css";
+import { Tooltip, OverlayTrigger } from "react-bootstrap";
 
 function AboutMe() {
   const languages = [
@@ -6,9 +7,9 @@ function AboutMe() {
     { name: "JavaScript", icon: "js.png" },
     { name: "Java", icon: "java.png" },
     // { name: "Python", icon: "python.png" },
-    { name: "C++", icon: "cpp.png" },
+    // { name: "C++", icon: "cpp.png" },
     { name: "PHP", icon: "php.png" },
-    {name: "Bootstrap", icon: "bootstrap.png"}
+    { name: "Bootstrap", icon: "bootstrap.png" },
   ];
 
   const skills = () => {
@@ -30,6 +31,22 @@ function AboutMe() {
     });
   };
 
+  const tooltip1 = (
+    <Tooltip id="tooltip">
+      <strong>INF.02</strong> Administracja i eksploatacja systemów komputerowych, urządzeń peryferyjnych i lokalnych sieci komputerowych.
+    </Tooltip>
+  );
+  const tooltip2 = (
+    <Tooltip id="tooltip">
+      <strong>INF.03</strong> Tworzenie i administrowanie stronami i aplikacjami internetowymi oraz bazami danych.
+    </Tooltip>
+  );
+  const tooltip3 = (
+    <Tooltip id="tooltip">
+      <strong>INF.04</strong> Projektowanie, programowanie i testowanie aplikacji.
+    </Tooltip>
+  );
+
   return (
     <div className="about-me" id="o-mnie">
       <h2 className="primary-font-color">O mnie</h2>
@@ -50,9 +67,21 @@ function AboutMe() {
             Programowania uczę się od 2020 roku. Szkołę średnią kończe w 2024
             roku. W trakcie mojej edukacji zdobyłem następujące kwalifikacje:{" "}
             <span className="no-wrap">
-              <span className="qualification">Inf.02</span>,{" "}
-              <span className="qualification">Inf.03</span>, i{" "}
-              <span className="qualification">Inf.04</span>
+              <OverlayTrigger placement="bottom" overlay={tooltip1}>
+                <a>
+                  <span className="qualification">Inf.02</span>,{" "}
+                </a>
+              </OverlayTrigger>
+              <OverlayTrigger placement="bottom" overlay={tooltip2}>
+                <a>
+                  <span className="qualification">Inf.03</span>, i{" "}
+                </a>
+              </OverlayTrigger>
+              <OverlayTrigger placement="bottom" overlay={tooltip3}>
+                <a>
+                  <span className="qualification">Inf.04</span>
+                </a>
+              </OverlayTrigger>
             </span>
           </p>
         </div>

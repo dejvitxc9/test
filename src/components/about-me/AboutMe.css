@@ -70,23 +70,3 @@
 .language-card:hover{
   scale: 1.03;
 }
-
-/* .btn-custom {
-  background-color: var(--accent-color);
-  color: #ffffff;
-  border: none;
-  margin-top: 0.5rem;
-  border-radius: 5px;
-  padding: 10px 20px;
-  font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
-}
-
-.btn-custom:hover {
-  background-color: #ff9900;
-}
-
-.btn-custom:active {
-  background-color: #ff7700;
-} */
