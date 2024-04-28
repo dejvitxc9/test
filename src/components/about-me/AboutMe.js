@@ -5,9 +5,10 @@ function AboutMe() {
     { name: "React JS", icon: "react.png" },
     { name: "JavaScript", icon: "js.png" },
     { name: "Java", icon: "java.png" },
-    { name: "Python", icon: "python.png" },
+    // { name: "Python", icon: "python.png" },
     { name: "C++", icon: "cpp.png" },
     { name: "PHP", icon: "php.png" },
+    {name: "Bootstrap", icon: "bootstrap.png"}
   ];
 
   const skills = () => {
