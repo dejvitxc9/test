@@ -82,5 +82,60 @@
       "simulationLink": "",
       "gitHubLink": ""
     }
+  ],
+  "languageSkills": [
+    {
+      "name": "React JS",
+      "icon": "react.png",
+      "skills": [
+        "Tworzenie interaktywnych komponentów UI",
+        "Zarządzanie stanem aplikacji",
+        "Implementowanie routowania",
+        "Używanie bibliotek takich jak React Router oraz React Bootstrap",
+        "Wdrażanie aplikacji React do produkcji"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "icon": "js.png",
+      "skills": [
+        "Manipulowanie DOM",
+        "Obsługa zdarzeń",
+        "Tworzenie animacji i interakcji",
+        "Testowanie i debugowanie kodu JavaScript"
+      ]
+    },
+    {
+      "name": "Java",
+      "icon": "java.png",
+      "skills": [
+        "Programowanie obiektowe, aplikacji mobilnych",
+        "Praca z bazami danych",
+        "Tworzenie interfejsów użytkownika",
+        "Używanie popularnych frameworków Java"
+      ]
+    },
+    {
+      "name": "PHP",
+      "icon": "php.png",
+      "skills": [
+        "Praca z bazami danych MySQL, Apache",
+        "Umiejętność współpracy z systemami CMS",
+        "Tworzenie i zarządzanie tabelami baz danych",
+        "Sprawne korzytsanie z operacji CRUD"
+
+      ]
+    },
+    {
+      "name": "Bootstrap",
+      "icon": "bootstrap.png",
+      "skills": [
+        "Tworzenie responsywnych UI",
+        "Korzystanie siatki Bootstrap",
+        "Korzystanie z komponentów Bootstrap",
+        "Dostosowywanie Bootstrapa do własnych potrzeb",
+        "Doświadczenie z Bootstrapem w wersji 5"
+      ]
+    }
   ]
 }

@@ -1,49 +1,48 @@
 import "./AboutMe.css";
-import { Tooltip, OverlayTrigger } from "react-bootstrap";
+import { Tooltip, OverlayTrigger, Card } from "react-bootstrap";
+import Accordion from "react-bootstrap/Accordion";
 
-function AboutMe() {
-  const languages = [
-    { name: "React JS", icon: "react.png" },
-    { name: "JavaScript", icon: "js.png" },
-    { name: "Java", icon: "java.png" },
-    // { name: "Python", icon: "python.png" },
-    // { name: "C++", icon: "cpp.png" },
-    { name: "PHP", icon: "php.png" },
-    { name: "Bootstrap", icon: "bootstrap.png" },
-  ];
-
+function AboutMe({languageSkills}) {
   const skills = () => {
-    return languages.map((language, index) => {
+    return languageSkills.map((language, index) => {
       return (
-        <div key={index} className="col-md-4 col-sm-6 mb-4 language-card">
-          <div className="card shadow">
-            <div className="card-body d-flex align-items-center">
+        <Card className="m-3" key={index}>
+          <Accordion.Item eventKey={index} >
+            <Accordion.Header>
               <img
                 src={`icons/${language.icon}`}
                 alt={`ikona języka programowania - ${language.name}`}
                 className="language-icon"
               />
               <p className="m-0 primary-font-color">{language.name}</p>
-            </div>
-          </div>
-        </div>
+            </Accordion.Header>
+            <Accordion.Body>
+              {
+                language.skills.map((skill, index2) => {return <p key={index2} className="m-0 primary-font-color">{skill}</p>})
+              }
+            </Accordion.Body>
+          </Accordion.Item>
+        </Card>
       );
     });
   };
 
   const tooltip1 = (
     <Tooltip id="tooltip">
-      <strong>INF.02</strong> Administracja i eksploatacja systemów komputerowych, urządzeń peryferyjnych i lokalnych sieci komputerowych.
+      <strong>INF.02</strong> Administracja i eksploatacja systemów
+      komputerowych, urządzeń peryferyjnych i lokalnych sieci komputerowych.
     </Tooltip>
   );
   const tooltip2 = (
     <Tooltip id="tooltip">
-      <strong>INF.03</strong> Tworzenie i administrowanie stronami i aplikacjami internetowymi oraz bazami danych.
+      <strong>INF.03</strong> Tworzenie i administrowanie stronami i aplikacjami
+      internetowymi oraz bazami danych.
     </Tooltip>
   );
   const tooltip3 = (
     <Tooltip id="tooltip">
-      <strong>INF.04</strong> Projektowanie, programowanie i testowanie aplikacji.
+      <strong>INF.04</strong> Projektowanie, programowanie i testowanie
+      aplikacji.
     </Tooltip>
   );
 
@@ -97,7 +96,7 @@ function AboutMe() {
 
         <div className="language-section">
           <h2 className="my-4 primary-font-color">Moje umiejętności:</h2>
-          {skills()}
+          <Accordion defaultActiveKey="0">{skills()}</Accordion>
         </div>
       </div>
     </div>

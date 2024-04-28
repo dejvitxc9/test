@@ -13,12 +13,10 @@ function App() {
   useEffect(() => {
     const checkDarkMode = () => {
       if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-        console.log("Ciemny - MEDIA");
         setIsThemeDark(true);
         document.body.classList.remove("light-theme", "dark-theme");
         document.body.classList.add("dark-theme");
       } else {
-        console.log("Jasny - MEDIA");
         setIsThemeDark(false);
         document.body.classList.remove("light-theme", "dark-theme");
         document.body.classList.add("light-theme");

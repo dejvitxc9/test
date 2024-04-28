@@ -10,7 +10,6 @@ a {
   height: 40rem;
 }
 @media (prefers-reduced-motion: no-preference) {
-  
   .anim-apear {
     animation-name: apear;
     animation-timing-function: linear;
@@ -51,15 +50,25 @@ a {
     }
   }
 
-  .card {
+  .card,
+  .accordion-item,
+  .accordion-header,
+  .accordion-button {
     background-color: var(--github-black);
+  }
+  .accordion-item {
+    border: 0px solid black;
+  }
+  .accordion-button:not(.collapsed) {
+    box-shadow: inset 0 0 0 0;
   }
 
   .about-me,
   .cv-container,
   .projects-section,
   .project-details,
-  .contact {
+  .contact,
+  .accordion-button:not(.collapsed) {
     background-color: var(--secondary-color);
   }
 
@@ -106,14 +115,25 @@ a {
   }
 
   .card,
+  .accordion-item,
+  .accordion-header,
+  .accordion-button,
   .tile {
     background-color: var(--primary-color-light);
   }
+  .accordion-item {
+    border: 0px solid black;
+  }
+  .accordion-button:not(.collapsed) {
+    box-shadow: inset 0 0 0 0;
+  }
+
   .projects-section,
   .about-me,
   .contact,
   .cv-container,
-  .project-details {
+  .project-details,
+  .accordion-button:not(.collapsed) {
     background-color: var(--secondary-color-light);
   }
   .name-section,

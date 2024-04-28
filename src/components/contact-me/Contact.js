@@ -125,6 +125,7 @@ function Contact() {
                 name="message"
                 placeholder="Wiadomość..."
                 className="form-control"
+                required
               />
               <button type="submit" className="btn btn-info primary-font-color">
                 Wyślij

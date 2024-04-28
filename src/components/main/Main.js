@@ -5,7 +5,7 @@ import Contact from "../contact-me/Contact";
 function Main({db}) {
   return (
     <>
-      <AboutMe />
+      <AboutMe languageSkills={db.languageSkills}/>
       <MyProject
         sectionTitle={"Projekty: React JS"}
         itemList={db.reactJsProjects}

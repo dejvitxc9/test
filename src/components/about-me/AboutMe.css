@@ -60,13 +60,13 @@
   height: auto;
   width: 3rem;
   margin-right: 1rem;
-  /* filter: grayscale(100%); */
   transition: 0.2s ease-in-out;;
 }
 
 .language-card{
   min-width: 200px;
 }
+
 .language-card:hover{
   scale: 1.03;
 }

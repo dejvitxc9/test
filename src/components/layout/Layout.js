@@ -6,8 +6,7 @@ import { Link } from "react-scroll";
 import { Outlet, useLocation, useNavigate } from "react-router-dom";
 
 function Layout({ handleThemeChange, isThemeDark }) {
-  console.log(isThemeDark);
-  
+ 
   const handleChange = (checked) => {
     if (checked) {
       handleThemeChange("dark-theme");
