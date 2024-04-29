@@ -2,12 +2,12 @@ import "./AboutMe.css";
 import { Tooltip, OverlayTrigger, Card } from "react-bootstrap";
 import Accordion from "react-bootstrap/Accordion";
 
-function AboutMe({languageSkills}) {
+function AboutMe({ languageSkills }) {
   const skills = () => {
     return languageSkills.map((language, index) => {
       return (
         <Card className="m-3" key={index}>
-          <Accordion.Item eventKey={index} >
+          <Accordion.Item eventKey={index}>
             <Accordion.Header>
               <img
                 src={`icons/${language.icon}`}
@@ -17,9 +17,13 @@ function AboutMe({languageSkills}) {
               <p className="m-3 primary-font-color">{language.name}</p>
             </Accordion.Header>
             <Accordion.Body>
-              {
-                language.skills.map((skill, index2) => {return <p key={index2} className="m-1 primary-font-color">{skill}</p>})
-              }
+              {language.skills.map((skill, index2) => {
+                return (
+                  <p key={index2} className="m-1 primary-font-color">
+                    {skill}
+                  </p>
+                );
+              })}
             </Accordion.Body>
           </Accordion.Item>
         </Card>
@@ -63,24 +67,34 @@ function AboutMe({languageSkills}) {
             <span className="accent-font-color">Technikiem Informatykiem</span>.
           </p>
           <p className="primary-font-color">
-            Programowania uczę się od 2020 roku. Szkołę średnią ukończyłem w 2024
-            roku. W trakcie mojej edukacji zdobyłem następujące kwalifikacje:{" "}
-            <span className="no-wrap">
+            Programowania uczę się od 2020 roku. Szkołę średnią ukończyłem w
+            2024 roku. W trakcie mojej edukacji zdobyłem następujące
+            kwalifikacje:{" "}
+            <span className="no-wrap primary-font-color">
               <OverlayTrigger placement="bottom" overlay={tooltip1}>
                 <a>
-                  <span className="qualification">Inf.02</span>,{" "}
+                  <span className="qualification primary-font-color">
+                    Inf.02
+                  </span>
                 </a>
               </OverlayTrigger>
+              <span className="primary-font-color">, i </span>
               <OverlayTrigger placement="bottom" overlay={tooltip2}>
                 <a>
-                  <span className="qualification">Inf.03</span>, i{" "}
+                  <span className="qualification primary-font-color">
+                    Inf.03
+                  </span>
                 </a>
               </OverlayTrigger>
+              <span className="primary-font-color">, i </span>
               <OverlayTrigger placement="bottom" overlay={tooltip3}>
                 <a>
-                  <span className="qualification">Inf.04</span>
+                  <span className="qualification primary-font-color">
+                    Inf.04
+                  </span>
                 </a>
               </OverlayTrigger>
+              <span className="primary-font-color">.</span>
             </span>
           </p>
         </div>
