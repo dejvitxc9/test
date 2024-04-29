@@ -14,11 +14,11 @@ function AboutMe({languageSkills}) {
                 alt={`ikona języka programowania - ${language.name}`}
                 className="language-icon"
               />
-              <p className="m-0 primary-font-color">{language.name}</p>
+              <p className="m-3 primary-font-color">{language.name}</p>
             </Accordion.Header>
             <Accordion.Body>
               {
-                language.skills.map((skill, index2) => {return <p key={index2} className="m-0 primary-font-color">{skill}</p>})
+                language.skills.map((skill, index2) => {return <p key={index2} className="m-1 primary-font-color">{skill}</p>})
               }
             </Accordion.Body>
           </Accordion.Item>

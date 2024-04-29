@@ -12,5 +12,5 @@
 }
 
 .grid-projects:hover .project-picture {
-  filter: blur(5px);
+  filter: blur(4px) saturate(0.5);
 }
