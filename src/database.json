@@ -91,6 +91,7 @@
         "Tworzenie interaktywnych komponentów UI",
         "Zarządzanie stanem aplikacji",
         "Implementowanie routowania",
+        "Korzystanie z interfejsu API",
         "Używanie bibliotek takich jak React Router oraz React Bootstrap",
         "Wdrażanie aplikacji React do produkcji"
       ]

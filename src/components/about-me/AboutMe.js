@@ -63,7 +63,7 @@ function AboutMe({languageSkills}) {
             <span className="accent-font-color">Technikiem Informatykiem</span>.
           </p>
           <p className="primary-font-color">
-            Programowania uczę się od 2020 roku. Szkołę średnią kończe w 2024
+            Programowania uczę się od 2020 roku. Szkołę średnią ukończyłem w 2024
             roku. W trakcie mojej edukacji zdobyłem następujące kwalifikacje:{" "}
             <span className="no-wrap">
               <OverlayTrigger placement="bottom" overlay={tooltip1}>
